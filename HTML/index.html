@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="../CSS/accueil.css">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/exclu.css">
 
 </head>
 
@@ -15,16 +16,16 @@
 
     <header>
         <nav id="menu">
-            <a class="lien" href="#" style="padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin-left: 130px;"><img src="../IMAGES/logo Ball X.jpg" alt="Accueil"></a>
+            <a class="lien" href="#" style="padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin-left: 130px;"><img src="../IMAGES/logoBallX.jpg" alt="Accueil"></a>
             <a class="lien" href="#">T-shirts</a>
             <a class="lien" href="#">Pulls</a>
             <a class="lien" href="#">Pantalons</a>
             <a class="lien" href="#">Accessoires</a>
 
-            <img id="loupe" src="../IMAGES/loupe.png">
+            <img id="loupe" src="../IMAGES/loupe.png" alt="Loupe">
 
             <form>
-                <input type="search" name="q" placeholder="rechercher">
+                <input class="search" type="search" name="q" placeholder="rechercher">
             </form>
 
             <a href="#"><img id="favori" src="../IMAGES/favori.png" alt="Favori"></a>
@@ -34,9 +35,75 @@
 
     <main>
         <section>
-            <div>
+            <h4><strong>Nos exclus du moment</strong></h4>
+                <div>
+                    <h3> T-shirt Balenciaga</h3>
+                    <figure>
+                        <img src="../IMAGES/TshirtBalenciaga.jpg" alt="T-shirt Balenciaga" title="T-shirt Balenciaga">
+                        <figcaption> T-shirt Balenciaga </figcaption>
+                    </figure>
+                    <label for="Taille1">Taille</label>
+                    <select name="Taille1" id="Taille1">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button type="button" class="Ajouter">Ajouter au panier</button>
+                    <p> <strong> description: </strong></p>
+                        <p> 
+                        T-shirt oversize noir
+                        <br>
+                        <strong>300€</strong>
+                        </p>
+                </div>
 
-            </div>
+                <div>
+                    <h3> Pull Balenciaga</h3>
+                    <figure>
+                        <img src="TshirtBalenciaga.jpg" alt="Pull Balenciaga" title="Pull Balenciaga">
+                        <figcaption> Pull Balenciaga </figcaption>
+                    </figure>
+                    <label for="Taille2">Taille</label>
+                    <select name="Taille2" id="Taille2">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button type="button" class="Ajouter">Ajouter au panier</button>
+                    <p> <strong> description: </strong></p>
+                        <p> 
+                        Pull oversize noir
+                        <br>
+                        <strong>500€</strong>
+                        </p>
+                </div>
+
+                <div>
+                    <h3> Mocassins Prada</h3>
+                    <figure>
+                        <img src="TshirtBalenciaga.jpg" alt="Mocassins Prada" title="Mocassins Prada">
+                        <figcaption> Mocassins Prada </figcaption>
+                    </figure>
+                    <label for="Taille3">Taille</label>
+                    <select name="Taille3" id="Taille3">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button type="button" class="Ajouter">Ajouter au panier</button>
+                    <p> <strong> description: </strong></p>
+                        <p> 
+                        Mocassins Prada noir
+                        <br>
+                        <strong>700€</strong>
+                        </p>
+                </div>
         </section>
     </main>
 
