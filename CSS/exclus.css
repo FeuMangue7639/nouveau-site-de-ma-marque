@@ -1,0 +1,42 @@
+section{
+
+    text-align: center;
+}
+
+
+.exclus{
+    width: 420px;
+    height: 490px;
+    background-color: rgba(184, 178, 178, 0.719);
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: groove;
+    
+    
+}
+
+main section div img{
+    height: 300px;
+    width: auto;
+}
+
+h4{
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 850px;
+    margin-right: 850px;
+    
+}
+
+main section h4{
+    position: static;
+    width: 153.367px;
+    height: 17px;
+}
+

@@ -17,9 +17,10 @@ color: white;
 
 
 .Ajouter {
-  --c:  crimson; /* the color*/
+  color: rgb(0, 0, 0); /* the color of the text*/
+  --c:  rgb(122, 122, 122); /* the color*/
   
-  box-shadow: 0 0 0 .1em inset var(--c); 
+  box-shadow: 0 0 0 .2em inset var(--c); 
   --_g: linear-gradient(var(--c) 0 0) no-repeat;
   background: 
     var(--_g) calc(var(--_p,0%) - 100%) 0%,
@@ -35,9 +36,9 @@ color: white;
   transition: background-position .4s, background-size 0s;
 }
 .Ajouter:active {
-  box-shadow: 0 0 9e9q inset #0009; 
+  box-shadow: 0 0 9e9q inset rgb(122, 122, 122); 
   background-color: var(--c);
-  color: #fff;
+  color: #ffffff;
 }
 
 .Ajouter {
@@ -48,3 +49,14 @@ color: white;
     font-weight: bold;  
     border: none;
   }
+
+  section {
+    background-color: rgb(235, 233, 233);
+    padding-top: 1px;
+  }
+
+  p {
+    color: black;
+  }
+
+ 
