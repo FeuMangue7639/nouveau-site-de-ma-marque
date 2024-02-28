@@ -16,21 +16,24 @@ form{
     margin-left: 10px;
 }
 
-input[type="search"]{
+.search[type="search"]{
 
     font-size: 17px;
 }
-input{
+.search{
+    height: 40px;
     width: 300px;
-    border: 3px solid crimson;
+    border: 3px solid rgb(117, 117, 117);
     padding-bottom: 3px;
     padding-top: 3px;
-    margin-top: -7px;
+    margin-top: 35px;
+    margin-left: 1020px;
 }
+
 
 .lien:hover{
         
-    color: crimson;
+    color: rgb(122, 122, 122);
 }
 
 .lien {
@@ -53,6 +56,9 @@ header nav a img{
 
 #loupe {
     float: left;
+    position: static;
+    width: 32px;
+    height: 32px;
     margin-top: 30px;
     margin-right: 0px;
     margin-left: 470px;
@@ -61,14 +67,20 @@ header nav a img{
 
 #favori {
     float: left;
+    position: static;
+    width: 32px;
+    height: 32px;
     margin-top: 30px;
     margin-right: 0px;
-    margin-left: 60px;
+    margin-left: 350px;
     margin-bottom: 0px;
 }
 
 #panier {
     float: right;
+    position: static;
+    width: 32px;
+    height: 32px;
     margin-top: 30px;
     margin-right: 130px;
     margin-left: 20px;
@@ -78,3 +90,4 @@ header nav a img{
 .search:focus{
     outline: 0;
 }
+

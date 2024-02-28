@@ -8,7 +8,9 @@
 
     <link rel="stylesheet" href="../CSS/accueil.css">
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/exclu.css">
+    <link rel="stylesheet" href="../CSS/exclus.css">
+    <link rel="stylesheet" href="../CSS/swipe.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
 
 </head>
 
@@ -36,12 +38,13 @@
     <main>
         <section>
             <h4><strong>Nos exclus du moment</strong></h4>
-                <div>
+                <div class="exclus">
                     <h3> T-shirt Balenciaga</h3>
                     <figure>
                         <img src="../IMAGES/TshirtBalenciaga.jpg" alt="T-shirt Balenciaga" title="T-shirt Balenciaga">
                         <figcaption> T-shirt Balenciaga </figcaption>
                     </figure>
+                    <p><strong>300€</strong></p>
                     <label for="Taille1">Taille</label>
                     <select name="Taille1" id="Taille1">
                         <option value="XS">XS</option>
@@ -51,20 +54,15 @@
                         <option value="XL">XL</option>
                     </select>
                     <button type="button" class="Ajouter">Ajouter au panier</button>
-                    <p> <strong> description: </strong></p>
-                        <p> 
-                        T-shirt oversize noir
-                        <br>
-                        <strong>300€</strong>
-                        </p>
                 </div>
 
-                <div>
+                <div class="exclus">
                     <h3> Pull Balenciaga</h3>
                     <figure>
-                        <img src="TshirtBalenciaga.jpg" alt="Pull Balenciaga" title="Pull Balenciaga">
+                        <img src="../IMAGES/pullBalenciaga.jpg" alt="Pull Balenciaga" title="Pull Balenciaga">
                         <figcaption> Pull Balenciaga </figcaption>
                     </figure>
+                    <p><strong>500€</strong></p>
                     <label for="Taille2">Taille</label>
                     <select name="Taille2" id="Taille2">
                         <option value="XS">XS</option>
@@ -74,20 +72,15 @@
                         <option value="XL">XL</option>
                     </select>
                     <button type="button" class="Ajouter">Ajouter au panier</button>
-                    <p> <strong> description: </strong></p>
-                        <p> 
-                        Pull oversize noir
-                        <br>
-                        <strong>500€</strong>
-                        </p>
                 </div>
 
-                <div>
-                    <h3> Mocassins Prada</h3>
+                <div class="exclus">
+                    <h3> Mocassin Prada</h3>
                     <figure>
-                        <img src="TshirtBalenciaga.jpg" alt="Mocassins Prada" title="Mocassins Prada">
+                        <img src="../IMAGES/mocassinPrada.avif" alt="Mocassin Prada" title="Mocassin Prada">
                         <figcaption> Mocassins Prada </figcaption>
                     </figure>
+                    <p><strong>700€</strong></p>
                     <label for="Taille3">Taille</label>
                     <select name="Taille3" id="Taille3">
                         <option value="XS">XS</option>
@@ -97,22 +90,23 @@
                         <option value="XL">XL</option>
                     </select>
                     <button type="button" class="Ajouter">Ajouter au panier</button>
-                    <p> <strong> description: </strong></p>
-                        <p> 
-                        Mocassins Prada noir
-                        <br>
-                        <strong>700€</strong>
-                        </p>
                 </div>
+                <hr>
         </section>
+
+        <div>
+                <i>
+                    <input checked type="radio" name="s" style="background-image: url('../IMAGES/pullMarron.png');" title="Pull marron">
+                    <input type="radio" name="s" style="background-image: url('../IMAGES/lunetteBlanche.png');" title="Lunettes blanches">
+                    <input type="radio" name="s" style="background-image: url('../IMAGES/robeBleu.png');" title="Robe bleu">
+                    <input type="radio" name="s" style="background-image: url('../IMAGES/pulls.png');" title="Pulls d'hiver">
+                    <input type="radio" name="s" style="background-image: url('../IMAGES/lunette.png');" title="Lunettes de luxe">
+                </i>
+        </div>
     </main>
 
-    <article>
-
-    </article>
-
     <footer>
-
+        
     </footer>
 
 </body>
