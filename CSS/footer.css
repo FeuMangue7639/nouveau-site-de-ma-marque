@@ -1,0 +1,35 @@
+.pied {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+#piedgauche {
+    margin-left: 190px;
+}
+
+#pieddroit {
+    margin-right: 200px;
+}
+
+#piedfond {
+    background-color: rgb(235, 235, 235);
+}
+
+#piedréseaux {
+    background-color: rgb(235, 235, 235);
+    width: 1904px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer p :hover{
+    opacity: 0.6;
+}
+
+footer {
+    background-color: rgb(235, 235, 235);
+}
