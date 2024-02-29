@@ -96,6 +96,6 @@ input:checked + input ~ input:before {
 }
 
 i { /*avant on enleve ça*/
-    margin-left: 200px;
-    right: 100px;
+    margin-left: 100px;
+    right: 50px;
   }
